@@ -16,8 +16,8 @@ eita = 0.5
 
 
 # Activation function
-def af(a):
-    if a >= 0:
+def af(theta):
+    if theta >= 0:
         return 1
     else:
         return -1
